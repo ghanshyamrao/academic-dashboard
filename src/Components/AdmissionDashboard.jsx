@@ -93,13 +93,13 @@ const AdmissionDashboard = () => {
                         type="date"
                         value={fromDate}
                         onChange={e => setFromDate(e.target.value)}
-                        className="border-none bg-white rounded-xl px-3 py-2 w-full sm:w-auto"
+                        className="border-none text-black bg-white rounded-xl px-3 py-2 w-full sm:w-auto"
                     />
                     <input
                         type="date"
                         value={toDate}
                         onChange={e => setToDate(e.target.value)}
-                        className="border-none bg-white rounded-xl px-3 py-2 w-full sm:w-auto"
+                        className="border-none text-black bg-white rounded-xl px-3 py-2 w-full sm:w-auto"
                     />
                 </div>
                 <button onClick={() => resetGraphData()} className="cursor-pointer bg-blue-600 hover:bg-blue-700 rounded-xl p-1 px-4 text-white">Reset</button>
