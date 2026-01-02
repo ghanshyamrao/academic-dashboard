@@ -108,9 +108,9 @@ const AdmissionDashboard = () => {
 
 
             <div className="">
-                <div className="xl:flex">
+                <div className="xl:flex w-full">
                     {filteredTrends.length === 0 ? (
-                        <div className="text-center text-gray-500">
+                        <div className="text-center items-center w-full text-gray-500">
                             No trend data for selected date range
                         </div>
                     ) : (
